@@ -1,0 +1,83 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.total{
+    border:1px solid black;
+    height:300px;
+    width:280px;
+}
+body{
+     background-color: skyblue;
+     /*
+    background-image: url(./assests/bg5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+}
+
+#location{
+    width:380px;
+    height:45px;
+     border-radius: 20px;
+     margin-top:11%;
+     margin-left:32%;
+}
+#search-btn{
+    margin-left:43%;
+    height:40px;
+    width:100px;
+    border-radius:10px;
+    cursor: pointer;
+    background-color: rgba(69, 173, 238, 0.922);
+}
+
+input[type="text"]
+{
+    font-size:24px;
+}
+.temp{
+    font-size: 5rem;
+    position:relative;
+    left: 50px;
+    top:20px;
+}
+.speedimage{
+    color: aliceblue;
+    height:50px;
+    width:60px;
+}
+.temp-data{
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+}
+.speedcontainer{
+    display:flex;
+    position:relative;
+    top:60px;
+    left:100px;
+
+}
+.weatherimg{
+    height:150px;
+    width:200px;
+    position:relative;
+    right: 160px;
+    bottom:180px;
+}
+.description{
+    position:relative;
+    top:40px;
+    right:30px;
+    color:rgb(56, 30, 198);
+}
+.temp{
+    color:whitesmoke;
+}
+
+#search-btn:hover{
+    background-color: rgba(13, 9, 14, 0.922);
+    color:aliceblue;
+}
