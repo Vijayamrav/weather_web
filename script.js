@@ -47,7 +47,7 @@ btn.addEventListener('click',()=>{
          }
          else if(data.weather[0].main=='Haze'){
             
-            cloudy.src='./assests/hazeimage.png';
+            cloudy.src='./assests/haze1webp';
             
          }
          else if(data.weather[0].main=='Clear'){
